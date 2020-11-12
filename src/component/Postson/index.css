@@ -1,0 +1,66 @@
+.postson-container {
+    display: flex;
+    margin-top: 20px;
+    width: 1200px;
+    height: 800px;
+    background-color: antiquewhite;
+    border: 2px solid #e3e3e3;
+    cursor: pointer;
+}
+.aside {
+    width: 240px;
+    padding: 20px 12px;
+    background-color: #fff;
+    overflow-y: scroll;
+    
+}
+
+.aside .aside-item-title {
+    line-height: 26px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+}
+
+.aside .aside-item {
+    display: flex;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 2px solid #eee;
+}
+
+.aside .aside-item .methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    font-weight: bold;
+}
+.aside .aside-item .url {
+    flex: 1;
+    text-align: left;
+    word-break: break-all; 
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.aside .aside-item .url:hover {
+    color:#ccc;
+}
+
+.content {
+    padding: 30px;
+}
+.request-container {
+    width: 100%;
+    height: 60px;
+}
+.methods-select {
+    width: 120px;
+    height: 100%;
+    background-color: #f5f5f5;
+}
