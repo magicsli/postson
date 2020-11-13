@@ -24,7 +24,7 @@ function methodsColor(methods) {
         case "get":
             return "green";
         case "post":
-            return "yellow";
+            return "rgb(183, 185, 67)";
         default:
             return "black";
     }
@@ -95,7 +95,7 @@ export default function Postson() {
           <div className="request-container">
               <select className='methods-select' value={send.methods} onChange={handleMethodsChange}>
                   <option value="get">get</option>
-                  {/* <option value="post">post</option> */}
+                  <option value="post">post</option>
                   {/* <option value="put">put</option> */}
                   {/* <option value="delete">delete</option> */}
               </select>
@@ -109,7 +109,7 @@ export default function Postson() {
                 displayObjectSize={false} 
                 collapsed="3" 
                 displayDataTypes={false}
-                style={ {height: "100%",padding: "40px", boxSizing: "border-box", outline:"none"}} 
+                style={ {minHeight: "100%",padding: "40px", boxSizing: "border-box", outline:"none"}} 
                 className="json-box"  theme="summerfruit" src={jsonResulet} />
           </div>
       </div>
