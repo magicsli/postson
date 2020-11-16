@@ -108,7 +108,6 @@
 }
 .json-content {
     flex: 1;
-    margin-top: 40px;
     width: 100%;
     height: 300px;
     overflow-y: scroll;
@@ -119,10 +118,10 @@
 .params-container {
     width: 100%;
     margin: 20px 0;
-    max-height: 120px;
+    max-height: 200px;
     overflow-y: scroll;
 }
-.params-container::-webkit-scrollbar { width: 0 !important }
+/* .params-container::-webkit-scrollbar { width: 0 !important } */
 .params-title {
     font-size: 16px;
     color: #666;
