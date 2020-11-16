@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/magicsli/postson">
-    <img width="200" src="https://github.com/magicsli/postson/assets/img/enjoy.png">
+    <img width="200" src="https://github.com/magicsli/postson/assets/img/enjoy.jpg">
   </a>
 </p>
 
@@ -12,7 +12,7 @@ A free webapp like Postman's.
 
 </div>
 
-[![image](https://github.com/magicsli/postson/assets/img/love.png)](https://github.com/magicsli/postson)
+[![image](https://github.com/magicsli/postson/assets/img/love.jpg)](https://github.com/magicsli/postson)
 
 English | [简体中文](./README-zh_CN.md)
 
