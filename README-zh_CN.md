@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/magicsli/postson">
-    <img width="200" src="https://github.com/magicsli/postson/assets/img/enjoy.jpg">
+    <img width="200" src="./src/assets/img/love.jpg">
   </a>
 </p>
 
@@ -11,8 +11,6 @@
 轻量、可靠的，像 Postman 一样的网页应用。 (就是小玩具)
 
 </div>
-
-[![image](https://github.com/magicsli/postson/assets/img/love.jpg)](https://github.com/magicsli/postson)
 
 [English](./README.md) | 简体中文
 
