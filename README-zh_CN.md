@@ -8,29 +8,29 @@
 
 <div align="center">
 
-A free webapp like Postman's.
+轻量、可靠的，像 Postman 一样的网页应用。 (就是小玩具)
 
 </div>
 
 [![image](https://github.com/magicsli/postson/assets/img/love.png)](https://github.com/magicsli/postson)
 
-English | [简体中文](./README-zh_CN.md)
+[English](./README.md) | 简体中文
 
-## ✨ Features
+## ✨ 特性
 
-- 📦 A set of high-quality request test webapp out of the box.
+- 📦 开箱即用的高质量 测试请求的 网页应用。
 
-## 🖥 Environment Support
+## 🖥 兼容环境
 
-- Modern browsers and Internet Explorer 11 (with [polyfills](https://stackoverflow.com/questions/57020976/polyfills-in-2019-for-ie11))
+- 现代浏览器和 IE11 (需要 [polyfills](https://stackoverflow.com/questions/57020976/polyfills-in-2019-for-ie11))
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br>Electron |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | IE11, Edge                                                                                                                                                                                                     | last 2 versions                                                                                                                                                                                                  | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                              | last 2 versions                                                                                                                                                                                                      |
 
-## ⌨️ Development
+## ⌨️ 本地开发
 
-clone locally:
+克隆到本地开发:
 
 ```bash
 $ git clone https://github.com/magicsli/postson.git
@@ -43,14 +43,14 @@ $ yarn start
 $ https://github.com/kangyana/postson.git
 ```
 
-Open your browser and visit http://127.0.0.1:3000
+打开浏览器访问 http://127.0.0.1:3000
 
-## 🤝 Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+## 🤝 参与共建 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Read [contributing guide](./CONTRIBUTING.md) and let's build a better postson together.
+请参考[贡献指南](./CONTRIBUTING.md).
 
-We welcome all contributions. Please read our [CONTRIBUTING.md](./CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/kangyana/postson/pulls) or as [GitHub issues](https://github.com/kangyana/postson/issues). If you'd like to improve code, check out the [Development Instructions](https://github.com/kangyana/postson/wiki/Development) and have a good time! :)
+> 强烈推荐阅读 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)、[《如何向开源社区提问题》](https://github.com/seajs/seajs/issues/545) 和 [《如何有效地报告 Bug》](http://www.chiark.greenend.org.uk/%7Esgtatham/bugs-cn.html)、[《如何向开源项目提交无法解答的问题》](https://zhuanlan.zhihu.com/p/25795393)，更好的问题更容易获得帮助。
 
-## LICENSE
+## 开源协议
 
-This project is based on the [MIT](https://en.wikipedia.org/wiki/MIT_License) protocol, please feel free to enjoy and participate in open source.
+本项目基于 [MIT](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89) 协议，请自由地享受和参与开源。
