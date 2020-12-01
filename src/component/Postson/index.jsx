@@ -41,7 +41,7 @@ export default function Postson() {
     const [send, setSend] = useState(initSend);
     const [jsonResulet, serJsonResult] = useState({});
 
-
+    // 点击发送请求数据
     const handleSend = async () => {
         if (!isLink(send.url)) {
             alert("请输入正确的url");
@@ -76,6 +76,7 @@ export default function Postson() {
 
     }
 
+    // 请求方式发送改变
     const handleMethodsChange = (e) => {
         setSend({
             ...send,
@@ -83,6 +84,7 @@ export default function Postson() {
         })
     }
 
+    // 输入url发生变化
     const handleUrlChange = (e) => {
         setSend({
             ...send,
@@ -112,7 +114,8 @@ export default function Postson() {
         })
     }
 
-    const handleAddParams = (index) => {
+    // 添加新的params字段
+    const handleAddParams = () => {
         setSend(send => {
             let data = [
                 ...send.data,
@@ -121,6 +124,11 @@ export default function Postson() {
             return { ...send, data }
         })
     }
+    
+    /**
+     * 删除params字段
+     * @param {number} index 需要删除的索引
+     */
     const handleDeteleParams = (index) => {
         setSend(send => {
             let data = [...send.data]
